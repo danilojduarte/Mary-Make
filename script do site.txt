@@ -1,0 +1,41 @@
+Landing Page estetica
+
+Cores do site 
+Rosa
+Branco
+Preto
+Vermelho
+
+Efeito hover
+Rosa Mas forte
+
+
+Mary Make
+Menu * Home - Produtos - Serviços - Novidades - Contato
+
+#Home
+h1
+h2
+p
+botão saiba mais 
+img princnpal
+
+#Produtos
+H2
+p
+Imagens dos produtos
+
+#Serviços
+h2 - > Mulheres com maquiagens prontas
+p
+img * 4
+
+#Novidades
+h2 - > Informações sobre lançamentos
+p
+img - Imagem 000
+
+#Contato		
+Midias sociais
+Telefone
+E-mail
