@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+    /* font-family: 'Open Sans', sans-serif; */
+    list-style: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+
+:root {
+    --titulo-color: #FF1493;
+    --efeito-pink-color:#C71585;
+    --white-color: #fff;
+    --texto1-color: #000000;
+    --texto2-color: #DC143C;
+    --efeito-red-color:#B22222;
+
+    --font-grande: 4.8rem;
+    --h2-font: 3.2rem;
+    --p-font: 1rem;
+}
