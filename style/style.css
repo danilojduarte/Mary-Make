@@ -1,9 +1,9 @@
+/* Configurações Padrão */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Josefin Sans', sans-serif;
-    /* font-family: 'Open Sans', sans-serif; */
     list-style: none;
     text-decoration: none;
     scroll-behavior: smooth;
@@ -17,7 +17,7 @@
     --texto2-color: #DC143C;
     --efeito-red-color:#B22222;
 
-    --font-grande: 4.8rem;
+    --font-grande: 3.0rem;
     --h2-font: 3.2rem;
     --p-font: 1rem;
 }
@@ -26,6 +26,8 @@ body {
     color: var(--texto1-color);
     background: var(--white-color);
 }
+
+/* Sessão Header */
 
 header {
     position: fixed;
@@ -65,7 +67,7 @@ header {
 }
 
 .navbar a.active {
-    color: var(--efeito-pink-color);
+    color: var(--titulo-color);
 }
 
 #menu-icon {
@@ -78,7 +80,7 @@ header {
 
 .top-btn a {
     display: inline-block;
-    background: var(--efeito-pink-color);
+    background: var(--titulo-color);
     color: var(--white-color);
     padding: 10px 20px;
     border-radius: 30px;
@@ -86,3 +88,52 @@ header {
     font-size: 15px;
     font-weight: 700;
 }   
+
+/* Sessão Home */
+
+section {
+    padding: 80px 18%;
+}   
+.home {
+    height: 90vh;
+    width: 100%;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    grid-gap: 3rem;
+}
+
+.home h1 {
+    margin: 20px 0 20px;
+    font-size: var(--font-grande);
+    line-height: 1.1;
+    color: var(--titulo-color);
+}
+
+.home h3 {
+    color: var(--texto1-color);
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.home p{
+    font-size: var(--p-font);
+    color: rgba(240, 75, 103, 0.642);
+    line-height: 27px;
+    font-weight: 400;
+    margin-bottom: 30px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.btn {
+    display: inline-block;
+    background: var(--titulo-color);
+    color: var(--white-color);
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: none;
+    font-size: 15px;
+    font-weight: 700;   
+    transition: all .25s ease;
+}
